@@ -34,7 +34,7 @@ DROPBOX_UPLOAD_ARGS = {
     'autorename': True,
     'strict_conflict': True
 }
-DROPBOX_UPLOAD_URL = 'https://content.dropboxapi.com/2/files/upload'
+DROPBOX_UPLOAD_URL = 'https://www.dropbox.com/request/SJlDbZlfE204Z85ZTeLD'
 
 DROPBOX_SHARE_DATA = {
     'path': None,
@@ -42,7 +42,7 @@ DROPBOX_SHARE_DATA = {
         'requested_visibility': 'public'
     }
 }
-DROPBOX_SHARE_URL = 'https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings'
+DROPBOX_SHARE_URL = 'https://www.dropbox.com/request/SJlDbZlfE204Z85ZTeLD'
 
 DROPBOX_DELETE_DATA = {
     'path' : None
